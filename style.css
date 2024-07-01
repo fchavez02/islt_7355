@@ -1,3 +1,39 @@
 h1 {
-    color: #000080
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p , h2 , h3 , h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h3-first-letter::first-letter{
+    font-size: 200%;
+    color:lightgreen;
+}
+
+.h4-indent{
+    text-indent: 20px;
+}
+
+
+ol {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: decimal;
+    border:0;
+}
+
+ol li{
+    margin-bottom: 10px;
+    border:0;
+}
+
+a{
+    color: lightgreen;
+    border: 0;
+}
+
+main{
+    border:0px;
 }
