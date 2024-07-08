@@ -2,34 +2,39 @@
 <!--
 Resource Page
 Author: Felipe Chavez
-Date: 06-30-2024
+Date: 07-07-2024
 -->
 <html lang="en-US">
-<head>
-        <meta charset="utf-8">
-        <title>Resource Page</title>
 
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="nav.css">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Resource Page</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
 </head>
+
 <body>
-   
+
     <nav>
-        <ul>
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger" />
+
+        <ul class="menu">
             <li class="active"><strong><a href="index.html">Home</a></strong></li>
-                <li><strong><a href="about.html">About</a></strong></li>
-                <li><strong><a href="learn.html">Let's Learn</a></strong>
-                    <ul>
-                        <li><a href="#">Link 1</a></li>
-                        <li><a href="#">Link 2</a></li>
-                        <li><a href="#">Link 3</a></li>
-                    </ul>
-                </li>
+            <li><strong><a href="about.html">About</a></strong></li>
+            <li><strong><a href="learn.html">Let's Learn</a></strong>
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+            </li>
             <li><strong><a href="references.html">Resources</a></strong></li>
             <li><strong><a href="#contact.html">Contact Me</a></strong></li>
         </ul>
-    </nav>
-
     </nav>
 
     <header>
@@ -37,37 +42,73 @@ Date: 06-30-2024
     </header>
 
     <main>
-        <h3 class="h3-first-letter"> Here are some great resources that you can use to learn more and gain more practice with each learning target:</h3>
-        
-        <h4><br>Learning Target 1:</h4>
+        <h3 class="h3-first-letter"> Here are some great resources that you can use to learn more and gain more
+            practice with each learning objective:</h3>
 
-        <ol>
-            <li><a href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/dot-plot/v/ways-to-represent-data">Representing Data - Video</a>.<br>“Representing Data (Video).” <em>Khan Academy</em>, Khan Academy, Accessed 7 June 2024.</li>
-            <li><a href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/dot-plot/v/ways-to-represent-data">Frequency tables & dot plots - Video</a>.<br>“Frequency tables & dot plots (Video).” <em>Khan Academy</em>, Khan Academy, Accessed 7 June 2024.</li>
-            <li><a href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/cc-6th-box-whisker-plots/v/reading-box-and-whisker-plots">Reading box plots (Video) - Video</a>.<br>“Reading box plots (Video).” <em>Khan Academy</em>, Khan Academy, Accessed 7 June 2024.</li>
-            <li><a href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/cc-6th-box-whisker-plots/v/constructing-a-box-and-whisker-plot">Constructing a box plot - Video</a><br>“Constructing a box plot (Video).”<em>Khan Academy</em>, Khan Academy, Accessed 7 June 2024.</li>
-        </ol>
+        <div class="grid-layout">
+            <div class="column-1">
+                <h4>Learning Objective 1:</h4>
 
-        <h4 class="h4-indent">Learning Target 2:</h4>
+                <ol>
+                    <li><a
+                            href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/dot-plot/v/ways-to-represent-data">Representing
+                            Data - Video</a>.<br>“Representing Data (Video).” <em>Khan Academy</em>, Khan Academy,
+                        Accessed
+                        7 June 2024.</li>
+                    <li><a
+                            href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/dot-plot/v/ways-to-represent-data">Frequency
+                            tables & dot plots - Video</a>.<br>“Frequency tables & dot plots (Video).” <em>Khan
+                            Academy</em>, Khan Academy, Accessed 7 June 2024.</li>
+                    <li><a
+                            href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/cc-6th-box-whisker-plots/v/reading-box-and-whisker-plots">Reading
+                            box plots (Video) - Video</a>.<br>“Reading box plots (Video).” <em>Khan Academy</em>, Khan
+                        Academy, Accessed 7 June 2024.</li>
+                    <li><a
+                            href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/cc-6th-box-whisker-plots/v/constructing-a-box-and-whisker-plot">Constructing
+                            a box plot - Video</a><br>“Constructing a box plot (Video).”<em>Khan Academy</em>, Khan
+                        Academy,
+                        Accessed 7 June 2024.</li>
+                </ol>
+            </div>
 
-        <ol>
-            <li><a href="https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/interquartile-range-iqr/v/calculating-interquartile-range-iqr">Interquartile range (IQR) - Video</a>.<br>“Interquartile range (IQR) (Video)."<em>Khan Academy</em>, Khan Academy, Accessed 7 June 2024.</li>
-            <li><a href="https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/interquartile-range-iqr/a/range-and-interquartile-range-worksheet#:~:text=The%20range%20is%20the%20distance,is%20IQR%3DQ3%2DQ1">Comparing range and interquartile range (IQR) - Summary</a>.<br>“Comparing range and interquartile range (IQR) (Summary).” <em>Khan Academy</em>, Khan Academy, Accessed 7 June 2024.</li>
-        </ol>
+            <div class="column-2">
+                <h4 class="h4-indent">Learning Objective 2:</h4>
 
-        <h4 class="h4-indent">Learning Target 3:</h4>
+                <ol>
+                    <li><a
+                            href="https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/interquartile-range-iqr/v/calculating-interquartile-range-iqr">Interquartile
+                            range (IQR) - Video</a>.<br>“Interquartile range (IQR) (Video)."<em>Khan Academy</em>, Khan
+                        Academy, Accessed 7 June 2024.</li>
+                    <li><a
+                            href="https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/interquartile-range-iqr/a/range-and-interquartile-range-worksheet#:~:text=The%20range%20is%20the%20distance,is%20IQR%3DQ3%2DQ1">Comparing
+                            range and interquartile range (IQR) - Summary</a>.<br>“Comparing range and interquartile
+                        range
+                        (IQR) (Summary).” <em>Khan Academy</em>, Khan Academy, Accessed 7 June 2024.</li>
+                </ol>
+            </div>
 
-        <ol>
-            <li><a href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/mean-and-median/v/statistics-intro-mean-median-and-mode#:~:text=The%20mean%20(average)%20of%20a,often%20in%20a%20data%20set">Statistics Intro: Mean, Median, & Mode - Video</a>.<br>“Interquartile range (IQR) (Video)."<em>Khan Academy</em>, Khan Academy, Accessed 7 June 2024.</li>
-        </ol>
+            <div class="column-3">
+
+                <h4 class="h4-indent">Learning Objective 3:</h4>
+
+                <ol>
+                    <li><a
+                            href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/mean-and-median/v/statistics-intro-mean-median-and-mode#:~:text=The%20mean%20(average)%20of%20a,often%20in%20a%20data%20set">Statistics
+                            Intro: Mean, Median, & Mode - Video</a>.<br>“Interquartile range (IQR) (Video)."<em>Khan
+                            Academy</em>, Khan Academy, Accessed 7 June 2024.</li>
+                </ol>
+            </div>
+
+        </div>
 
     </main>
 
-    <footer>
+
+    <footer class="footer">
         <p><br>Felipe Chavez</p>
         <p>fdc78@umsystems.edu</p>
         <p>&copy;2024 Felipe Chavez. All rights reserved.</p>
-    
+
     </footer>
 </body>
 

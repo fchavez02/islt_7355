@@ -1,46 +1,84 @@
 <!DOCTYPE html>
- <!--
-    Template Page
-    Author: Felipe Chavez
-    Date: 06-17-2024
-    -->
+<!--
+Learn Page
+Author: Felipe Chavez
+Date: 07-07-2024
+-->
+
 <html lang="en-US">
+
 <head>
-               <meta charset="utf-8">
-               <title>Let's Learn</title>
-               <link rel="stylesheet" href="nav.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Let's Learn</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
 </head>
+
 <body>
 
     <nav>
-        <ul>
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger" />
+
+        <ul class="menu">
             <li class="active"><strong><a href="index.html">Home</a></strong></li>
             <li><strong><a href="about.html">About</a></strong></li>
-            <li><strong><a href="#learn.html">Let's Learn</a></strong>
+            <li><strong><a href="learn.html">Let's Learn</a></strong>
                 <ul>
                     <li><a href="#">Link 1</a></li>
                     <li><a href="#">Link 2</a></li>
                     <li><a href="#">Link 3</a></li>
                 </ul>
             </li>
+            <li><strong><a href="references.html">Resources</a></strong></li>
+            <li><strong><a href="#contact.html">Contact Me</a></strong></li>
         </ul>
-
     </nav>
-   
+
     <header>
-        <h1>
-            Let's Learn</h1>
+        <h1>Let's Learn</h1>
     </header>
 
     <main>
+        <h3>Click on each learning objectice below to complete the learning website.</h3>
+        <div class="grid-layout">
+            <div class="column-1">
+                <h4>Learning Objective 1:</h4>
+
+                <p>Students will be able to calculate the measure of central tendency for a set of data (mean,
+                    median, and mode)</p>
+                <img src="lt_1.png" alt="Head-shot">
+            </div>
+
+            <div class="column-2">
+                <h4 class="h4-indent">Learning Objective 2:</h4>
+
+                <p>Students will be able to calculate the measure of spread for a set of data (range and IQR)</p>
+                <img src="lt_2.jpg" alt="Head-shot">
+            </div>
+
+            <div class="column-3">
+
+                <h4 class="h4-indent">Learning Objective 3:</h4>
+
+                <p>Students will be able to create and interpret displays of data given a set of data values
+                    (dot
+                    plot, box plot, and histogram)</p>
+                <img src="lt_3.jpg" alt="Head-shot">
+            </div>
+
+        </div>
 
     </main>
 
-    <footer>
+    <footer class="footer">
         <p>Felipe Chavez</p>
         <p>fdc78@umsystems.edu</p>
         <p>&copy;2024 Felipe Chavez. All rights reserved.</p>
-    
+
     </footer>
 </body>
 
