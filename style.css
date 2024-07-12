@@ -129,6 +129,8 @@ body {
 
 .footer {
     grid-area: footer;
+    background-image: url(footer-bg.jpg);
+    background-size: cover;
     background-color: gray;
     color: white;
     text-align: center;
