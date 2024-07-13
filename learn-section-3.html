@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--
+    Learn Page - Learning Objective 1
+    Author: Felipe Chavez
+    Date: 07-14-2024
+    -->
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Home Page</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+    <nav>
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger" />
+
+        <ul class="menu">
+            <li><strong><a href="index.html">Home</a></strong></li>
+            <li><strong><a href="about.html">About</a></strong></li>
+            <li class="active"><strong><a href="learn.html">Let's Learn</a></strong>
+                <ul>
+                    <li><a href="learn-section-1.html">Objective 1</a></li>
+                    <li><a href="learn-section-2.html">Objective 2</a></li>
+                    <li><a href="learn-section-3.html">Objective 3</a></li>
+                </ul>
+            </li>
+            <li><strong><a href="references.html">Resources</a></strong></li>
+            <li><strong><a href="#contact.html">Contact Me</a></strong></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1 style="color:lightgreen">Learning Objective #3</h1>
+    </header>
+
+    <main>
+        <h3 class="learn-section-objectives">Students will be able to create and interpret displays of data given a set
+            of data values (dot plot, box plot, and histogram).</h3>
+        <div class="grid-layout-learn">
+            <div class="column">
+                <h4>1) Read</h4>
+                <h5>Directions: Read and take notes on the following information.</h5>
+                <p>Before we can create the three displays of data, or graphs, which are a Dot Plot, Box Plot, and a
+                    Histogram, we have to understand the "5 Number Summary" </p>
+                <img style="border-radius: 0;" src="five-num-sum.png" alt="Five Number Summary">
+                <ol><strong>Displays of Data (Graphs)</strong>
+                    <li><strong>Dot Plot:</strong>
+                        <ul>
+                            <li>Each dot (or other shape) represents one response</li>
+                            <li>Do not skip numbers when making a scale & label your axis</li>
+                        </ul>
+                        <img src="dot-plot-ex.png" alt="Dot Plot Example">
+                    </li>
+                    <li><strong>Box Plot (a.k.a. Box & Whiskers Plot):</strong>
+                        <ul>
+                            <li>Find the 5 Number Summary. Use these to make the box plot</li>
+                            <li>Choose a suitable scale & label your axis</li>
+                        </ul>
+                        <img src="box-plot-ex.png" alt="Box Plot Example">
+                    </li>
+                    <li><strong>Histogram:</strong> The mode is the number that occurs most often in a data set. </li>
+                    <ul>
+                        <li>Use a range of values on the x-axis (called “bins”). Each bin is the
+                            same width and there are no gaps between bins</li>
+                        <li>Displays quantitative data (numerical) and shows the frequency
+                            of how many data values are within that given range
+                        </li>
+                    </ul>
+                    <img src="histogram-ex1.png" alt="Histogram vs Bar">
+                    <img src="histogram-ex2.png" alt="Histogram Example">
+                </ol>
+            </div>
+
+            <div class="column">
+                <h4>2) Watch</h4>
+
+                <h5>Directions: Watch and take notes on the following video. If the video is too small to view, you can
+                    click the full screen layout.</h5>
+                <div class="learn-video">
+                    <p>1. Creating Dot Plot</p>
+                    <iframe src="https://www.youtube.com/embed/kn83BA7cRNM?si=yczabV4jk7m3vbGO"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p>2. Creating Box Plots</p>
+                    <iframe src="https://www.youtube.com/embed/09Cx7xuIXig?si=bsiQpO8QwOArfgLE"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p>3. Creating Histograms</p>
+                    <iframe src="https://www.youtube.com/embed/gdE46YSedvE?si=E5RMiqDYrnUC8tKg&amp;start=180"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                </div>
+            </div>
+
+            <div class="column">
+
+                <h4>3) Practice</h4>
+
+                <h5>Directions: Complete the following exercises.</h5>
+                <ul>1. Dot Plot
+                    <li><a
+                            href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/dot-plot/e/creating-dot-plots">
+                            Create Graph</a>
+                    </li>
+                    <li><a
+                            href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/dot-plot/e/analyzing-with-dot-plots">
+                            Ex #1: Interpret Graph
+                        </a>
+                    <li><a
+                            href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/dot-plot/e/analyzing-with-dot-plots">
+                            Ex #2: Interpret Graph
+                        </a>
+                    </li>
+                </ul>
+                <ul style="margin-top: 10px;">2. Box Plot
+                    <li><a
+                            href="https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/box-whisker-plots/a/box-plot-review">
+                            Create Graph</a>
+                    </li>
+                    <li><a
+                            href="https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/box-whisker-plots/e/box-plots">
+                            Ex #1: Interpret Graph
+                        </a>
+                        <a
+                            href="https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/box-whisker-plots/e/box-plots">
+                            Ex #2: Interpret Graph
+                        </a>
+                    </li>
+                </ul>
+                <ul> 3. Histogram
+                    <li><a
+                            href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/histograms/e/creating-histograms">
+                            Create Graph</a>
+                    </li>
+                    <li><a
+                            href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/histograms/e/reading-histograms">
+                            Ex #1: Interpret Graph
+                        </a>
+                        <a
+                            href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/histograms/e/reading-histograms">
+                            Ex #2: Interpret Graph
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <img class="pic" src="favicon-phone.ico">
+        <img class="picbig" src="favicon-phone.ico">
+
+        <p>1-888-888-8888</p>
+
+        <img class="pic" src="favicon-email.ico">
+        <img class="picbig" src="favicon-email.ico">
+
+        <p><a href="fdc78@umsystems.edu">Felipe Chavez</a>, fdc78@umsystems.edu
+        </p>
+
+
+        <p>&copy;2024 Felipe Chavez. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
