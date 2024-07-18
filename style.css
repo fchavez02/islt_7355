@@ -202,7 +202,7 @@ p,
 h2,
 h3,
 h4 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: myFirstFont, sans-serif;
 }
 
 .h3-first-letter::first-letter {
@@ -361,6 +361,54 @@ table caption {
     height: 100%;
 }
 
+/*Contact Form Layout*/
+.contact-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+
+    label {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        border: 2px solid rgb(42, 244, 42);
+        border-radius: 5px;
+        font-family: myFirstFont, sans-serif;
+        padding: 10px;
+        margin-top: 5px;
+    }
+
+    textarea {
+        resize: vertical;
+    }
+
+    button {
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: lightgray;
+    }
+}
+
+form {
+    label {
+        display: contents;
+    }
+
+    display: flex;
+    flex-direction: column;
+}
+
 /* Icon Zoom effect*/
 .pic {
     width: 50px;
@@ -384,8 +432,8 @@ table caption {
 
 label {
     margin: 0 40px 0 0;
-    font-size: 26px;
-    line-height: 70px;
+    font-size: 22px;
+    line-height: 50px;
     display: none;
     width: 26px;
     float: left;
@@ -428,6 +476,23 @@ label {
             "column-3";
     }
 
+    /*media query for contact form */
+    .contact-container {
+        max-width: 350px;
+
+        label {
+            margin: 80%;
+            padding: 80%;
+            border: 0;
+            font-size: 24px;
+            width: 100%;
+
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+    }
 
     /*Mobile nav menu*/
 
