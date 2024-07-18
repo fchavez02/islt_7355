@@ -238,6 +238,41 @@ main {
     border: 0px;
 }
 
+/*Table Layout*/
+table {
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+table th {
+    text-align: left;
+    background-color: navy;
+    color: white;
+    padding: 4px 30px 4px 8px;
+
+}
+
+table td {
+    color: black;
+    border: 1px solid black;
+    padding: 4px 8px;
+    background-color: #b7b8b9
+}
+
+table tr:nth-child(odd) td {
+    background-color: #e7edf0;
+}
+
+table tfoot tr td {
+    background-color: navy !important;
+    color: white
+}
+
+table caption {
+    font-weight: bold;
+    font-size: 15px;
+}
+
 
 
 /*Home Page*/
@@ -393,6 +428,7 @@ label {
             "column-3";
     }
 
+
     /*Mobile nav menu*/
 
     label {
@@ -475,6 +511,18 @@ label {
         left: 0;
         width: 100%;
         height: 100%;
+    }
+
+    /*media query for table*/
+    tr {
+        font-size: 14px;
+
+    }
+
+    table {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
 
