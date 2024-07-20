@@ -104,7 +104,7 @@
 
 .column-1 {
     border: 2px solid white;
-    padding: 12px;
+    padding: 20px;
     text-align: center;
     background-color: lightcoral;
 
@@ -121,7 +121,7 @@
 
 .column-2 {
     border: 2px solid white;
-    padding: 12px;
+    padding: 20px;
     text-align: center;
     background-color: lightblue;
 
@@ -138,7 +138,7 @@
 
 .column-3 {
     border: 2px solid white;
-    padding: 12px;
+    padding: 20px;
     text-align: center;
     background-color: lightgreen;
 
