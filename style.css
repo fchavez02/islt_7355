@@ -31,7 +31,8 @@
 
 /*Grid Layout with 3 columns*/
 .grid-layout,
-.grid-layout-learn {
+.grid-layout-learn,
+.grid-layout-1 {
     display: grid;
     padding-left: 5px;
     grid-template-columns: 10fr 10fr 10fr;
@@ -50,6 +51,10 @@
 
 .grid-layout-learn {
     grid-template-columns: 20fr 18fr 10fr;
+}
+
+.grid-layout-1 {
+    grid-template-columns: 10fr 10fr 8fr;
 }
 
 .column {
@@ -87,7 +92,7 @@
     }
 
     a {
-        text-align: left;
+        text-align: center;
         color: rgb(95, 187, 29);
     }
 
@@ -116,6 +121,7 @@
 
     p {
         padding-bottom: 15px;
+        color: black;
     }
 }
 
@@ -133,6 +139,7 @@
 
     p {
         padding-bottom: 15px;
+        color: black;
     }
 }
 
@@ -150,6 +157,7 @@
 
     p {
         padding-bottom: 15px;
+        color: black;
     }
 }
 
@@ -180,12 +188,15 @@ body {
     grid-area: footer;
     background-image: url(footer-bg.jpg);
     background-size: cover;
-    background-color: gray;
     color: white;
     text-align: center;
     padding: 10px 0;
     clear: both;
     position: relative;
+
+    a {
+        color: greenyellow;
+    }
 }
 
 
@@ -242,6 +253,7 @@ main {
 table {
     border-collapse: collapse;
     font-size: 12px;
+    width: 80%;
 }
 
 table th {
@@ -296,7 +308,7 @@ table caption {
 .learning-objectives {
     h3 {
         font-size: 16;
-        color: #FFFFFF;
+        color: white;
     }
 
     ol {
@@ -458,7 +470,7 @@ label {
 
     .grid-layout {
         display: grid;
-        grid-template-rows: 5fr 5fr 5fr;
+        grid-template-rows: 4fr 5fr 5fr;
         grid-template-columns: 1fr;
         grid-template-areas:
             "column-1"
@@ -468,12 +480,22 @@ label {
 
     .grid-layout-learn {
         display: grid;
-        grid-template-rows: 4fr 2fr 1fr;
+        grid-template-rows: 10fr 5fr 4fr;
         grid-template-columns: 1fr;
         grid-template-areas:
-            "column-1"
-            "column-2"
-            "column-3";
+            "column"
+            "column"
+            "column";
+    }
+
+    .grid-layout-1 {
+        display: grid;
+        grid-template-rows: 4fr 5fr 2fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "column"
+            "column"
+            "column";
     }
 
     /*media query for contact form */
