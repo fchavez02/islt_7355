@@ -611,6 +611,12 @@ label {
         margin-left: 5%;
         margin-right: 5%;
     }
+
+    /*media query for breadcrumbs nav*/
+
+    script {
+        display: none;
+    }
 }
 
 
